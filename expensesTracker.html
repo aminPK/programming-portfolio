@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses-Tracker</title>
+
+    <link rel="stylesheet" href="ex.css">
+</head>
+<body>
+    <div class="app">
+        <h1>ExpensesTracker</h1>
+
+        <div class="form">
+            <input id="description" placeholder="description...">
+
+            <input id="amount" type="number" placeholder="amount...">
+
+            <select id="categorie">
+                <option value="food">Food</option>
+                <option value="entertaiment">Entertaiment</option>
+                <option value="transport">Transport</option>
+                <option value="communication">Communication</option>
+            </select>
+
+            <select id="filterCategories">
+                <option value="all">All Categories</option>
+                <option value="food">Food</option>
+                <option value="entertaiment">Entertaiment</option>
+                <option value="transport">Transport</option>
+                <option value="communication">Communication</option>
+            </select>
+
+            <button id="addBtn">Add Expense</button>
+
+            <button id="cancelBtn">Cancle Eiditing</button>
+
+            <div class="totals">
+                <p id="total"></p>
+                <p id="totalTransport"></p>
+                <p id="totalEntertaiment"></p>
+                <p id="totalCommunication"></p>
+                <p id="totalFood"></p>
+            </div>
+
+            
+        </div>
+        
+        <ul id="expenseList"></ul>
+    </div>
+    
+    <script src="expensesTracker.js"></script>
+</body>
+</html>
