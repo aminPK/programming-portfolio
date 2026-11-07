@@ -41,4 +41,14 @@ I am continuously improving my programming skills and building practical project
 
 ## 📫 Contact
 
-GitHub: [aminPK](https://github.com/aminPK)
+GitHub: [aminPK](https://github.com/aminPK
+
+## 📸 Project Screenshots
+
+### Expenses Tracker
+
+![Expenses Tracker 1](Screenshot%20(1531).png)
+
+![Expenses Tracker 2](Screenshot%20(1532).png)
+
+![Expenses Tracker 3](Screenshot%20(1533).png))
